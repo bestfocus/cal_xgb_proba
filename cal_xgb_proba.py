@@ -1,5 +1,4 @@
 import numpy as np
-import random
 from xgboost import XGBClassifier
 
 X=np.random.normal(1,1,[10,6])
@@ -10,8 +9,9 @@ model.fit(X,y)
 
 Xtest=np.random.normal(1,1,[2,6])
 ytest=np.random.randint(2,size=2)
-
+#get prediction results
 model.predict_proba(Xtest)
+#get tree results
 model.get_booster().dump_model('output.txt')
 with open('output.txt','r') as f:
     lmodel_leaves=f.read()
