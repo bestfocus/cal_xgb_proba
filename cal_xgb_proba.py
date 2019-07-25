@@ -2,7 +2,9 @@ import numpy as np
 from xgboost import XGBClassifier
 
 #simulate inputs for training the model
+#simulation with a normail distribution N{mean=1,std=1}, generating a matrix of 10*6, each element is iid from the normal distribution
 X=np.random.normal(1,1,[10,6])
+#randomly generate 10 number, either 1 or 0
 y=np.random.randint(2,size=10)
 
 #use xgboost to train
