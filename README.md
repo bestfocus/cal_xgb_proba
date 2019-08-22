@@ -12,4 +12,6 @@ check the output probability by calculating it independently
 
 # Installation
 
+It needs to install xgboost. The installation information is available on https://xgboost.readthedocs.io/en/latest/build.html
+
 # License
