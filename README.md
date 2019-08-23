@@ -3,9 +3,9 @@ Calculate xgboost probability by using a simple example.
 
 # Contents
 
-Generate input data randomly
+Generate input data including features and labels randomly
 
-Use xgboost to generate results
+Use xgboost to train the inputs and generate results
 
 check the output probability by calculating it independently
 
