@@ -12,7 +12,7 @@ check the output probability by calculating it independently.
 
 # Installation
 
-It needs to install xgboost. The installation information is available on https://xgboost.readthedocs.io/en/latest/build.html
+It needs to install xgboost to use the code. The xgboost installation information is available on https://xgboost.readthedocs.io/en/latest/build.html
 
 # License
 No license is required to use this code.
