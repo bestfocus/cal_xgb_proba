@@ -1,3 +1,4 @@
+#calculate the xgboost probability
 import numpy as np
 from xgboost import XGBClassifier
 
