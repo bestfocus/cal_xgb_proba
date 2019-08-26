@@ -1,5 +1,5 @@
 # cal_xgb_proba
-Calculate xgboost probability by using a simple example.
+This program is for calculating xgboost probability by using a simple example.
 
 # Contents
 
